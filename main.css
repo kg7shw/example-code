@@ -1,0 +1,415 @@
+.header > .codepen-logo {
+  text-align: center;
+  padding: 3rem;
+}
+
+svg {
+  height: 140px;
+  width: 140px;
+  position: relative;
+  left: 30px;
+}
+
+.header {
+  background-color: black;
+  height: 115px;
+  margin: -10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > .codepen-logo {
+  padding: 15px 10px 10px 15px;
+}
+
+.header > .explore {
+  font-size: 12px;
+  color: #cea135;
+}
+
+.header > .white-bar > .pens {
+  font-size: 20px;
+  position: relative;
+  left: -135px;
+  color: white;
+}
+
+.header > .white-bar > .projects {
+  font-size: 20px;
+  position: relative;
+  left: -79px;
+  top: 27px;
+  color: white;
+}
+
+.header > .white-bar > .posts {
+  font-size: 20px;
+  color: white;
+  position: relative;
+  left: 9px;
+  top: 4px;
+}
+.header > .white-bar > .collections {
+  font-size: 20px;
+  color: white;
+  position: relative;
+  left: 79px;
+  top: -18px;
+}
+
+button {
+  position: relative;
+  font-size: 20px;
+  padding: 15px;
+  color: white;
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+}
+.button-2 {
+  position: relative;
+  font-size: 20px;
+  padding: 15px;
+  color: white;
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  left: 70px;
+}
+.button-3 {
+  position: relative;
+  font-size: 20px;
+  padding: 15px;
+  color: white;
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  top: 16px;
+}
+
+.header > .spark {
+  position: relative;
+  top: 18px;
+  left: 20px;
+  color: grey;
+}
+
+.header > .arrow {
+  position: relative;
+  top: 20px;
+  left: -50px;
+  color: grey;
+  font-size: 0.7em;
+}
+
+button > .button__icon {
+  color: lightgreen;
+}
+
+.button-1 {
+  position: relative;
+  top: 15px;
+  left: 155px;
+}
+.button-2 {
+  position: relative;
+  top: 15px;
+}
+
+.header > .search {
+  position: relative;
+  top: 18px;
+  font-size: 1.7em;
+  color: grey;
+  position: relative;
+  left: 110px;
+}
+
+.pens {
+  position: relative;
+  top: 50px;
+  left: -160px;
+}
+
+/* mid-section */
+
+.mid-section {
+  background-color: #404040;
+  margin: -9px;
+  height: 750px;
+}
+
+.mid-section > .middle-section > .image img {
+  height: 500px;
+  width: 500px;
+  position: relative;
+  left: 858px;
+}
+
+.mid-section > .middle-section > .this-is {
+  position: relative;
+  left: 860px;
+  top: 70px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.mid-section > .middle-section > .codepen-projects {
+  position: relative;
+  color: lightblue;
+  font-size: 1.2em;
+  left: 920px;
+  top: 48px;
+  font-weight: bold;
+}
+
+.mid-section > .middle-section > .codepen-is-a {
+  position: relative;
+  color: lightgray;
+  font-weight: lighter;
+  top: -500px;
+  left: 65px;
+  font-size: 2.3em;
+}
+
+.mid-section > .middle-section > .social-development {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  top: -543px;
+  left: 268px;
+  font-size: 2.3em;
+}
+
+.mid-section > .middle-section > .environment {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  top: -550px;
+  left: 65px;
+  font-size: 2.3em;
+}
+.mid-section > .middle-section > .design {
+  position: relative;
+  color: lightgrey;
+  font-weight: lighter;
+  top: -593px;
+  left: 275px;
+  font-size: 2.3em;
+}
+
+.mid-section > .middle-section > .developers {
+  position: relative;
+  color: lightgrey;
+  font-weight: lighter;
+  top: -600px;
+  left: 65px;
+  font-size: 2.3em;
+}
+
+.mid-section > .middle-section > i {
+  color: yellow;
+  position: relative;
+  top: -637px;
+  left: 300px;
+  font-size: 2.3em;
+}
+
+.mid-section > .middle-section > .its {
+  position: relative;
+  color: lightgrey;
+  font-weight: lighter;
+  top: -570px;
+  left: 65px;
+  font-size: 1.9em;
+}
+
+.mid-section > .middle-section > .web {
+  position: relative;
+  color: lightgrey;
+  font-weight: lighter;
+  top: -560px;
+  left: 65px;
+  font-size: 1.9em;
+}
+
+.mid-section > .middle-section > .inspiration {
+  position: relative;
+  color: lightgrey;
+  font-weight: lighter;
+  top: -550px;
+  left: 65px;
+  font-size: 1.9em;
+}
+
+.mid-section > .middle-section > .button-4 {
+  position: relative;
+  top: -500px;
+  left: 68px;
+  color: black;
+  font-size: 1.8em;
+  background-color: #39e75f;
+  font-weight: bold;
+}
+
+.mid-section > .middle-section > .button-5 {
+  position: relative;
+  top: -500px;
+  left: 80px;
+  color: white;
+  background-color: black;
+  font-size: 1.8em;
+}
+
+.mid-section > .middle-section > .box-1 {
+  position: relative;
+  color: white;
+  background-color: #545454;
+  padding: 20px;
+  width: 310px;
+  height: 15px;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #bebebe;
+  top: -420px;
+}
+
+.mid-section > .middle-section > .box-2 {
+  position: relative;
+  color: white;
+  background-color: #545454;
+  padding: 20px;
+  width: 310px;
+  height: 15px;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #bebebe;
+  top: -477px;
+  left: 350px;
+}
+
+.mid-section > .middle-section > .box-3 {
+  position: relative;
+  color: white;
+  background-color: #545454;
+  padding: 20px;
+  width: 310px;
+  height: 15px;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #bebebe;
+  top: -420px;
+  left: 700px;
+  top: -534px;
+}
+
+.mid-section > .middle-section > .box-4 {
+  position: relative;
+  color: white;
+  background-color: #545454;
+  padding: 20px;
+  width: 310px;
+  height: 15px;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #bebebe;
+  top: -591px;
+  left: 1050px;
+}
+
+.mid-section > .middle-section > .codepen-for {
+  position: relative;
+  left: 70px;
+  top: -630px;
+  font-size: 1.2em;
+  color: white;
+  font-weight: bold;
+}
+
+.mid-section > .middle-section > .team {
+  position: relative;
+  left: 180px;
+  top: -659px;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+}
+
+.mid-section > .middle-section > .codepen-for-1 {
+  position: relative;
+  top: -683px;
+  left: 390px;
+  font-size: 1.2em;
+  color: white;
+  font-weight: bold;
+}
+
+.mid-section > .middle-section > .edu {
+  position: relative;
+  left: 500px;
+  top: -712px;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+}
+
+.mid-section > .middle-section > .codepen-for-2 {
+  position: relative;
+  left: 750px;
+  top: -738px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+}
+
+.mid-section > .middle-section > .privacy {
+  position: relative;
+  left: 864px;
+  top: -768px;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+}
+
+.mid-section > .middle-section > .codepen-for-3 {
+  position: relative;
+  left: 1090px;
+  top: -792px;
+  font-size: 1.2em;
+  color: white;
+  font-weight: bold;
+}
+
+.mid-section > .middle-section > .writing {
+  position: relative;
+  left: 1200px;
+  top: -821px;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+}
+
+.middle-section {
+  max-height: 100px;
+  margin-bottom: -100px;
+}
+
+.mid-section {
+  height: 1050px;
+}
+
+html,
+body {
+  height: 100vh;
+}

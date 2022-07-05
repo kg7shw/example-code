@@ -1,187 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>homepage</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@300&family=Sarabun:wght@100&display=swap"
-      rel="stylesheet"
-    />
-
+    <title>project</title>
     <script
       src="https://kit.fontawesome.com/f23eaf5a68.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="styles/common.CSS" />
-    <link rel="stylesheet" href="styles/nav.CSS" />
-    <link rel="stylesheet" href="styles/homepage.CSS" />
-    <link rel="stylesheet" href="styles/footer.CSS" />
-    <link rel="stylesheet" href="styles/media-queries.CSS" />
-
-    <!-- <link rel="stylesheet" href="styles2.CSS"> -->
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <!-- Navigation wrapper -->
-    <div class="navigation-wrapper">
-      <div class="left-column">
-        <div class="icon">
-          <i class="fas fa-phone-volume"></i>
-        </div>
-      </div>
-      <div class="contact-hours-wrapper">
-        <div class="phone">555 555 5555</div>
-        <div class="hours">10 AM MIDNIGHT</div>
-      </div>
-      <!-- Link wrapper  -->
-      <div class="center-column">
-        <div class="banner-image">
-          <img
-            src="images/logos/decamp-fantastic-fries-logo-white.png"
-            alt="Logo"
-            width="216px"
-            height="100%"
+    <div class="header">
+      <div class="codepen-logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 138 26"
+          fill="none"
+          stroke="white"
+          stroke-width="2.3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M80 6h-9v14h9 M114 6h-9 v14h9 M111 13h-6 M77 13h-6 M122 20V6l11 14V6 M22 16.7L33 24l11-7.3V9.3L33 2L22 9.3V16.7z M44 16.7L33 9.3l-11 7.4 M22 9.3l11 7.3 l11-7.3 M33 2v7.3 M33 16.7V24 M88 14h6c2.2 0 4-1.8 4-4s-1.8-4-4-4h-6v14 M15 8c-1.3-1.3-3-2-5-2c-4 0-7 3-7 7s3 7 7 7 c2 0 3.7-0.8 5-2 M64 13c0 4-3 7-7 7h-5V6h5C61 6 64 9 64 13z"
           />
-        </div>
-        <div class="Links-wrapper">
-          <div class="nav-link">
-            <a href="index.html">home</a>
-          </div>
-
-          <div class="nav-link">
-            <a href="about.html">about</a>
-          </div>
-
-          <div class="nav-link">
-            <a href="menu.html">menu</a>
-          </div>
-
-          <div class="nav-link">
-            <a href="contact.html">contact</a>
-          </div>
-        </div>
+        </svg>
       </div>
 
-      <div class="right-column">
-        <div class="address-wrapper">
-          <a href="contact.html">
-            123 Any Street <br />
-            Scottdale, AZ, 85251
-          </a>
-        </div>
+      <div class="explore">EXPLORE</div>
 
-        <div class="contact-icon">
-          <a href="contact.html">
-            <i class="fas fa-map-marker-alt"></i>
-          </a>
-        </div>
+      <div class="white-bar">
+        <div class="pens">Pens</div>
+        <div class="projects">Projects</div>
+        <div class="posts">Posts</div>
+        <div class="collections">Collections</div>
       </div>
+
+      <div class="spark">Spark</div>
+      <div class="arrow">
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+
+      <button type="button" class="button-1">
+        <span class="button__text">Create</span>
+        <span class="button__icon">
+          <i class="fa-solid fa-angle-down"></i>
+        </span>
+      </button>
+
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <button type="button " class="button-2">
+        <span class="button__text">Log In</span>
+      </button>
+      <button type="button " class="button-3">
+        <span class="button__text">Sign Up</span>
+      </button>
+
+      <div class="pens"></div>
     </div>
 
-    <div class="hero-section">
-      <div class="top-heading">
-        <h1>HTML Styled Fries</h1>
-      </div>
-
-      <div class="bottom-heading">
-        <h3>Coding Fuel</h3>
-      </div>
-    </div>
-
-    <div class="features-section">
-      <div class="columns-wrapper">
-        <div class="column">
-          <!-- icon goes here -->
-          <i class="fa-solid fa-truck-monster"></i>
-          <p>We Deliver!</p>
-
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="mid-section">
+      <section class="middle-section">
+        <div class="this-is">This is</div>
+        <div class="codepen-projects">CodePen Projects!</div>
+        <p>!</p>
+        <div class="image">
+          <img src="images\projectimage.png" alt="code_pen_example" />
         </div>
-
-        <div class="column">
-          <!-- icon goes here -->
-          <i class="fa-solid fa-wifi"></i>
-          <p>You can code from here!</p>
-
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-
-        <div class="column">
-          <!-- icon goes here -->
-          <i class="fa-solid fa-chart-line"></i>
-          <p>100+ types of fries!</p>
-
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="google-maps">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.0765169518627!2d-111.9265696!3d33.4993863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0bbdbed13a73%3A0xfab78c0f014377d8!2sDiego%20Pops!5e0!3m2!1sen!2sus!4v1655754307930!5m2!1sen!2sus"
-        width="100%"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </div>
-
-    <div class="footer">
-      <div class="logo-footer">
-        <img
-          src="images/logos/decamp-fantastic-fries-logo-white.png"
-          alt="Logo"
-          width="216px"
-          height="100%"
-        />
-      </div>
-
-      <div class="footer-phone-hours">
-        <span class="phone"> 555 555 5555 </span>
-
-        <span class="hours"> 10 AM MIDNIGHT </span>
-      </div>
-
-      <div class="Links-wrapper">
-        <div class="nav-link">
-          <a href="index.html">home</a>
-        </div>
-
-        <div class="nav-link">
-          <a href="about.html">about</a>
-        </div>
-
-        <div class="nav-link">
-          <a href="menu.html">menu</a>
-        </div>
-
-        <div class="nav-link">
-          <a href="contact.html">contact</a>
-        </div>
-      </div>
-
-      <div class="social-media-icons-wrapper">
-        <a href="#">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-
-        <a href="#">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
-
-        <a href="#">
-          <i class="fa-brands fa-facebook-f"></i>
-        </a>
-      </div>
-
-      <div class="copyright-wrapper">
-        &copy; 2022 DevCamp &#124; All rights reserved
-      </div>
+        <div class="codepen-is-a">CodePen is a</div>
+        <div class="social-development">social development</div>
+        <div class="environment">environment</div>
+        <div class="design">for front-end designers</div>
+        <div class="developers">and developers.</div>
+        <i class="fa-solid fa-hand"></i>
+        <div class="its">It's the best place to build and deploy a</div>
+        <div class="web">website,show off your work,build test cases,</div>
+        <div class="inspiration">and find inspiration.</div>
+        <button
+          type="button"
+          class="button-4"
+          style="height: 65px; width: 270px"
+        >
+          Sign Up for Free
+        </button>
+        <button
+          type="button"
+          class="button-5"
+          style="height: 65px; width: 180px"
+        >
+          Learn More
+        </button>
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="box-4"></div>
+        <div class="codepen-for">CodePen for</div>
+        <div class="team">TEAMS</div>
+        <div class="codepen-for-1">CodePen for</div>
+        <div class="edu">EDUCATION</div>
+        <div class="codepen-for-2">CodePen for</div>
+        <div class="privacy">PRIVACY</div>
+        <div class="codepen-for-3">CodePen for</div>
+        <div class="writing">WRITING</div>
+      </section>
     </div>
   </body>
 </html>
